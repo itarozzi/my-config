@@ -1,0 +1,9 @@
+[main window]
+left = 662
+top = 25
+width = 400
+height = 250
+
+[hosts]
+debian64 = 001966BBC0CD\255.255.255.255\9
+
