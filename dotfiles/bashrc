@@ -1,5 +1,16 @@
-alias skype='LD_PRELOAD=/usr/lib32/libv4l/v4l1compat.so /usr/bin/skype'
+# .bashrc
 
+# Source global definitions
+if [ -f /etc/bashrc ]; then
+	. /etc/bashrc
+fi
+
+# User specific aliases and functions
+
+alias vi="vim"
+
+
+alias skype='LD_PRELOAD=/usr/lib32/libv4l/v4l1compat.so /usr/bin/skype'
 
 export PERL_LOCAL_LIB_ROOT="~/perl5";
 export PERL_MB_OPT="--install_base ~/perl5";
@@ -8,3 +19,5 @@ export PERL5LIB="~/perl5/lib/perl5/x86_64-linux-gnu-thread-multi:~/perl5/lib/per
 export PATH="~/bin;~/perl5/bin:$PATH";
 
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib
+export PATH=$PATH:~/bin
+export PATH=$PATH:~/bin

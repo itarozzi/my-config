@@ -19,8 +19,7 @@ Bundle 'sjbach/lusty.git'
 Bundle 'fholgado/minibufexpl.vim.git'
 Bundle 'scrooloose/nerdtree.git'
 Bundle 'Lokaltog/vim-easymotion.git'
-Bundle 'git://git.wincent.com/command-t.git'
-
+Bundle 'vim-scripts/CCTree.git'
 
 " non github repos 
 Bundle 'git://git.wincent.com/command-t.git' 
