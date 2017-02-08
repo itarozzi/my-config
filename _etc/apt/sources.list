@@ -1,0 +1,50 @@
+
+### Debian Stable
+# deb http://ftp.it.debian.org/debian/ jessie main non-free contrib
+# deb-src http://ftp.it.debian.org/debian/ jessie main non-free contrib
+
+# deb http://ftp.it.debian.org/debian/ jessie-updates main
+# deb-src http://ftp.it.debian.org/debian/ jessie-updates main
+
+
+
+### Debian Testing
+deb http://ftp.it.debian.org/debian/ stretch main non-free contrib
+deb-src http://ftp.it.debian.org/debian/ stretch main
+
+### Debian Ufficiale -- Sid
+deb http://ftp.it.debian.org/debian/ sid main non-free contrib
+
+deb http://repo.mongodb.org/apt/debian jessie/mongodb-org/3.2 main
+
+
+
+
+### Spotify
+deb http://repository.spotify.com stable non-free
+
+#===== prima di abilitare questi verifica se servono veramente!!! ===
+# repo per wine
+# deb http://www.lamaresh.net/apt/ squeeze main
+
+### Multimedia -- Audio -- Rarewares
+deb http://www.deb-multimedia.org jessie main non-free
+
+
+### Kernel with RT patch ###
+# deb http://cryptomys.de/experimental/ ./
+# deb http://frickelplatz.de/debian/ sid main
+
+
+
+# deb http://mozilla.debian.net/ squeeze-backports iceweasel-4.0
+# deb http://ppa.launchpad.net/dhor/myway/ubuntu lucid main
+
+## Depôt MultiSystem
+deb http://liveusb.info/multisystem/depot all main
+
+### repo mint LMDE per cinnamon (e forse anche mate) ###
+# deb http://packages.linuxmint.com/ debian main upstream import
+
+
+

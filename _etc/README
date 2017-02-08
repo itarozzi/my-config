@@ -1,0 +1,4 @@
+This directory contains configuration files from /etc, as backup.
+
+It could be useful to distribute udev rules or other settings to all my PC
+

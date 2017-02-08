@@ -1,0 +1,21 @@
+
+
+Package: *
+Pin: release o=xmixahlx
+Pin-Priority: 900
+
+
+Package: *
+Pin: release a=stretch
+Pin-Priority: 830
+
+
+Package: *
+Pin: release a=sid
+Pin-Priority: 800
+
+Package: *
+Pin: release a=experimental
+Pin-Priority: 750
+
+

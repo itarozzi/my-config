@@ -1,0 +1,8 @@
+# Atmel AVR ISP mkII
+SUBSYSTEM=="usb", SYSFS{idVendor}=="03eb", SYSFS{idProduct}=="2104", GROUP="plugdev", MODE="0660"
+# Atmel AVR JTAG ICE mkII
+SUBSYSTEM=="usb", SYSFS{idVendor}=="03eb", SYSFS{idProduct}=="2103", GROUP="plugdev", MODE="0660"
+# Atmel AVR DRAGON
+SUBSYSTEM=="usb", SYSFS{idVendor}=="03eb", SYSFS{idProduct}=="2107", GROUP="plugdev", MODE="0660"
+
+

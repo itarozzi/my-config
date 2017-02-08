@@ -1,0 +1,3 @@
+deb http://liquorix.net/debian sid main
+deb-src http://liquorix.net/debian sid main
+
